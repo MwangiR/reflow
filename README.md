@@ -3,6 +3,8 @@
 # node test
   
  ![License: APACHE 2.0](https://img.shields.io/badge/License-APACHE 2.0-blue.svg)](https://opensource.org/licenses/APACHE 2.0)
+ ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json)
+
   
  ## Description
   
