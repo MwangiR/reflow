@@ -2,7 +2,8 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "none") {
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/${license})`;
+    const encodedLicense = license.replace(/\s/g, "%20");
+    return `[![License: ${license}](https://img.shields.io/badge/License-${encodedLicense}-blue.svg)](https://opensource.org/licenses/${license})`;
   }
 }
 
@@ -40,7 +41,6 @@ function generateMarkdown(data) {
   \n ${data.installation}
   \n ## Usage
   \n ${data.usage}
-  \n ## License 
   \n ${renderLicenseSection(data.license)}
   \n ${renderLicenseLink(data.license)}
   \n ## Contributing
