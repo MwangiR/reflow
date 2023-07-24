@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== "none") {
     const encodedLicense = license.replace(/\s/g, "%20");
-    return `[![License: ${license}](https://img.shields.io/badge/License-${encodedLicense}-blue.svg)](https://opensource.org/licenses/${license})`;
+    return `[![License: ${license}](https://img.shields.io/badge/License-${encodedLicense}-blue.svg)](https://opensource.org/licenses/${encodedLicense})`;
   }
 }
 
