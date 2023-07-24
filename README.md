@@ -1,11 +1,11 @@
 
-  # test3
+  # test4
   
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![License: APACHE 2.0](https://img.shields.io/badge/License-APACHE%202.0-blue.svg)](https://opensource.org/licenses/APACHE 2.0)
   
  ## Description
   
- test 3 lorem ipsum
+ test4 lorem ipsum
   
  ## Table of Contents
   
@@ -25,14 +25,12 @@
   
  ## Usage
   
- use inquirer package
-  
- ## License 
+ create readme using terminal
   
  ## License
-  This project is licensed under the MIT license.
+  This project is licensed under the APACHE 2.0 license.
   
- [MIT](https://opensource.org/licenses/MIT)
+ [APACHE 2.0](https://opensource.org/licenses/APACHE 2.0)
   
  ## Contributing
   
