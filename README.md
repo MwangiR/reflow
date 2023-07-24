@@ -1,11 +1,11 @@
 
   # test4
   
- [![License: APACHE 2.0](https://img.shields.io/badge/License-APACHE%202.0-blue.svg)](https://opensource.org/licenses/APACHE 2.0)
+ [![License: APACHE 2.0](https://img.shields.io/badge/License-APACHE%202.0-blue.svg)](https://opensource.org/licenses/APACHE%202.0)
   
  ## Description
   
- test4 lorem ipsum
+ test4 lorem ipsum 4
   
  ## Table of Contents
   
@@ -21,11 +21,11 @@
   
  ## Installation 
   
- install node
+ npm install
   
  ## Usage
   
- create readme using terminal
+ run node index js
   
  ## License
   This project is licensed under the APACHE 2.0 license.
@@ -34,9 +34,9 @@
   
  ## Contributing
   
- create pull request
+ create pull requests
   
  ## Tests
   
- use jest test cases
+ create jest test cases
   
