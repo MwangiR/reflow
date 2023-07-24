@@ -3,7 +3,8 @@
 function renderLicenseBadge(license) {
   if (license !== "none") {
     const encodedLicense = license.replace(/\s/g, "%20");
-    return `[![License: ${license}](https://img.shields.io/badge/License-${encodedLicense}-blue.svg)](https://opensource.org/licenses/${encodedLicense})`;
+    const urlEncodedLicense = license.replace(/\s/g, "-");
+    return `[![License: ${license}](https://img.shields.io/badge/License-${encodedLicense}-blue.svg)](https://opensource.org/licenses/${urlEncodedLicense})`;
   }
 }
 
@@ -11,7 +12,8 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
-    return `[${license}](https://opensource.org/licenses/${license})`;
+    const urlEncodedLicense = license.replace(/\s/g, "-");
+    return `[${license}](https://opensource.org/licenses/${urlEncodedLicense})`;
   }
 }
 
