@@ -65,45 +65,61 @@ function contributingDefault(contribution) {
     return contribution;
   }
 }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-# ${data.title}
-\n ${renderLicenseBadge(data.license)}\n
+  return `# ${data.title}
+
+${renderLicenseBadge(data.license)}
+
 ## Description
-Project Name is ${data.title}. It aims to ${data.description}.
+
+Project name is ${data.title}. It aims to ${data.description}.
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Installation 
-\n ${installationDefault(data.installation, data.title)}
+## Installation
+
+1. Clone the repository: git clone https://github.com/your-username/${data.title}.git
+2. Navigate to the project directory: cd ${data.title}
+3. Install dependencies: npm install
+4. Start the development server: node ${data.filename}.js
 
 ## Usage
-${usageCriteria(data.usage)}\n
-\n ${renderLicenseSection(data.license)}
-\n ${renderLicenseLink(data.license)}
+
+${usageCriteria(data.usage)}
+
+${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
 
 ## Contributing
 
 We welcome contributions from the community to improve ${
     data.title
   }. To contribute, please follow these steps:
+
 ${contributingDefault(data.contribution)}
+
 ## Tests
-\n ${data.test}
+
+${data.test}
 
 ## Questions
-\n If you have any questions or suggestions regarding AwesomeApp, feel free to reach out to our team:
-\n* [GitHub](https://github.com/${data.github})
-\n* Email: [${data.email}](mailto:${data.email})
-  `;
+
+If you have any questions or suggestions regarding ${
+    data.title
+  }, feel free to reach out to our team:
+
+- [GitHub](https://github.com/${data.github})
+- Email: [${data.email}](mailto:${data.email})
+`;
 }
 
 module.exports = generateMarkdown;
