@@ -23,14 +23,15 @@ const questions = [
   },
   {
     type: "input",
-    message: "What are the usage instructions for your project? *comma-separated*",
+    message:
+      "What are the usage instructions for your project? *Enter usage scenarios comma-separated*",
     name: "usage",
   },
   {
     type: "input",
     message: "What are the contribution guidelines for your project?",
     name: "contribution",
-    default: "Fork",
+    default: "Fork Instructions",
   },
   {
     type: "input",
