@@ -33,10 +33,10 @@ function renderLicenseSection(license) {
   }
 }
 
-function installationDefault(instalDefault, appTitle) {
+function installationDefault(instalDefault, appTitle, username) {
   if (instalDefault === "npm install") {
     return `
-    1. Clone the repository: git clone https://github.com/your-username/${appTitle}.git
+    1. Clone the repository: git clone https://github.com/${username}/${appTitle}.git
     2. Navigate to the project directory: cd ${appTitle}
     3. Install dependencies: npm install
     4. Start the development server: node (name of your file).js
@@ -87,10 +87,7 @@ Project name is ${data.title}. It aims to ${data.description}.
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/${data.title}.git
-2. Navigate to the project directory: cd ${data.title}
-3. Install dependencies: npm install
-4. Start the development server: node ${data.filename}.js
+${installationDefault(data.installation, data.title, data.github)}
 
 ## Usage
 

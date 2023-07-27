@@ -1,10 +1,10 @@
-# sdfsdfs
+# ewrwer
 
-[![License: OSL 3.0](https://img.shields.io/badge/License-OSL%203.0-blue.svg)](https://opensource.org/licenses/OSL-3.0)
+[![License: APACHE 2.0](https://img.shields.io/badge/License-APACHE%202.0-blue.svg)](https://opensource.org/licenses/APACHE-2.0)
 
 ## Description
 
-Project name is sdfsdfs. It aims to dfsdfsd.
+Project name is ewrwer. It aims to werwer.
 
 ## Table of Contents
 
@@ -17,27 +17,30 @@ Project name is sdfsdfs. It aims to dfsdfsd.
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/sdfsdfs.git
-2. Navigate to the project directory: cd sdfsdfs
-3. Install dependencies: npm install
-4. Start the development server: node undefined.js
+
+    1. Clone the repository: git clone https://github.com/mwangir/ewrwer.git
+    2. Navigate to the project directory: cd ewrwer
+    3. Install dependencies: npm install
+    4. Start the development server: node (name of your file).js
+    
 
 ## Usage
 
 
- 1. sdfsdfsdf
- 2. sdfsdfsdf
- 3. sdfsdfsdfsdf
- 4. sdfsdfsdf
+ 1. werwer
+ 2. wer
+ 3. wer
+ 4. wer
+ 5. wer
 
 
   ## License
-  This project is licensed under the OSL 3.0 license.
-[OSL 3.0](https://opensource.org/licenses/OSL-3.0)
+  This project is licensed under the APACHE 2.0 license.
+[APACHE 2.0](https://opensource.org/licenses/APACHE-2.0)
 
 ## Contributing
 
-We welcome contributions from the community to improve sdfsdfs. To contribute, please follow these steps:
+We welcome contributions from the community to improve ewrwer. To contribute, please follow these steps:
 
 
     1. Fork the repository.
@@ -49,11 +52,11 @@ We welcome contributions from the community to improve sdfsdfs. To contribute, p
 
 ## Tests
 
-sdfsdfsdfsd
+rerwer
 
 ## Questions
 
-If you have any questions or suggestions regarding sdfsdfs, feel free to reach out to our team:
+If you have any questions or suggestions regarding ewrwer, feel free to reach out to our team:
 
-- [GitHub](https://github.com/sdfsdfsdf)
-- Email: [sdfsdfsdfsdf](mailto:sdfsdfsdfsdf)
+- [GitHub](https://github.com/mwangir)
+- Email: [sdfsdfsdfs](mailto:sdfsdfsdfs)
