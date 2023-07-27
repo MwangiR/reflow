@@ -1,10 +1,10 @@
-# ewrwer
+# Reflow
 
-[![License: APACHE 2.0](https://img.shields.io/badge/License-APACHE%202.0-blue.svg)](https://opensource.org/licenses/APACHE-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Project name is ewrwer. It aims to werwer.
+Project name is Reflow. It aims to To provide a detailed readme file with licensing.
 
 ## Table of Contents
 
@@ -18,8 +18,8 @@ Project name is ewrwer. It aims to werwer.
 ## Installation
 
 
-    1. Clone the repository: git clone https://github.com/mwangir/ewrwer.git
-    2. Navigate to the project directory: cd ewrwer
+    1. Clone the repository: git clone https://github.com/mwangir/Reflow.git
+    2. Navigate to the project directory: cd Reflow
     3. Install dependencies: npm install
     4. Start the development server: node (name of your file).js
     
@@ -27,20 +27,18 @@ Project name is ewrwer. It aims to werwer.
 ## Usage
 
 
- 1. werwer
- 2. wer
- 3. wer
- 4. wer
- 5. wer
+ 1. Provide details to show
+ 2. Provide licensing fro our app
+ 3. Efficient way to create readme file
 
 
   ## License
-  This project is licensed under the APACHE 2.0 license.
-[APACHE 2.0](https://opensource.org/licenses/APACHE-2.0)
+  This project is licensed under the MIT license.
+[MIT](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
-We welcome contributions from the community to improve ewrwer. To contribute, please follow these steps:
+We welcome contributions from the community to improve Reflow. To contribute, please follow these steps:
 
 
     1. Fork the repository.
@@ -52,11 +50,11 @@ We welcome contributions from the community to improve ewrwer. To contribute, pl
 
 ## Tests
 
-rerwer
+Use Jest TDD
 
 ## Questions
 
-If you have any questions or suggestions regarding ewrwer, feel free to reach out to our team:
+If you have any questions or suggestions regarding Reflow, feel free to reach out to our team:
 
 - [GitHub](https://github.com/mwangir)
-- Email: [sdfsdfsdfs](mailto:sdfsdfsdfs)
+- Email: [test@email.org](mailto:test@email.org)
