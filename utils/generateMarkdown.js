@@ -48,12 +48,12 @@ function installationDefault(instalDefault, appTitle) {
 
 function usageCriteria(options) {
   const input = options.split(",").map((option) => option.trim());
-  const orderedList = input.map((option, index) => `\n ${index + 1}. ${option}`).join("\n");
+  const orderedList = input.map((option, index) => `\n ${index + 1}. ${option}`).join("");
   return orderedList;
 }
 
 function contributingDefault(contribution) {
-  if (contribution === "Fork") {
+  if (contribution === "Fork Instructions") {
     return `
     1. Fork the repository.
     2. Create a new branch: git checkout -b feature/your-feature
@@ -65,18 +65,13 @@ function contributingDefault(contribution) {
     return contribution;
   }
 }
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
 # ${data.title}
 \n ${renderLicenseBadge(data.license)}\n
 ## Description
-${
-  data.title
-} is a powerful and user-friendly web application that allows users to manage their tasks and boost productivity.
-With an intuitive interface and robust features, AwesomeApp helps individuals and teams stay organized, collaborate efficiently, and achieve their goals effectively.
-${data.description}
+Project Name is ${data.title}. It aims to ${data.description}.
 
 ## Table of Contents
 
@@ -102,11 +97,12 @@ We welcome contributions from the community to improve ${
   }. To contribute, please follow these steps:
 ${contributingDefault(data.contribution)}
 ## Tests
-\n ${data.test}\n
+\n ${data.test}
+
 ## Questions
 \n If you have any questions or suggestions regarding AwesomeApp, feel free to reach out to our team:
-\n * [GitHub](https://github.com/${data.github})
-\n * [Email](mailto:${data.email})
+\n* [GitHub](https://github.com/${data.github})
+\n* Email: [${data.email}](mailto:${data.email})
   `;
 }
 
