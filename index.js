@@ -19,16 +19,18 @@ const questions = [
     type: "input",
     message: "What are the installation instructions for your project?",
     name: "installation",
+    default: "npm install",
   },
   {
     type: "input",
-    message: "What are the usage instructions for your project?",
+    message: "What are the usage instructions for your project? *comma-separated*",
     name: "usage",
   },
   {
     type: "input",
     message: "What are the contribution guidelines for your project?",
     name: "contribution",
+    default: "Fork",
   },
   {
     type: "input",
